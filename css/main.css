@@ -1,0 +1,212 @@
+
+.header {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.header a {
+    text-decoration: none;
+    color: #23213D;!important;
+    display: inline-block;
+    letter-spacing: 1px;
+
+    background-image: linear-gradient(#23213D 50%, #23213D 50%);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 0 2px, 100% 2px;
+
+    transition: .3s ease-in-out;
+    padding-bottom: 2px;
+}
+.header a:hover {
+    background-size: 93px 2px, 24px 93px;
+    color: #23213D;
+}
+/* could be deleted "relative"*/
+.about {
+    position: relative;
+    padding: 35px 0;
+}
+.about__txt {
+    padding-top: 65px;!important;
+}
+.about__title {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    /* or 55px  520 155*/
+
+
+    align-items: center;
+    letter-spacing: -0.02em;
+
+
+    color: #23213D;
+}
+.about__subtitle {
+    padding-top: 40px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+
+    color: #23213D;
+
+    opacity: 0.8;
+}
+.about__btn {
+    padding-top: 55px;
+}
+.signIn__btn {
+    padding-top: 62px;
+    margin-left: -95px;
+
+}
+
+.btn-order-hover {
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+
+
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-order-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-order-hover:focus {
+    outline: none;
+}
+
+.btn-order-hover.bn {
+    background-image: linear-gradient(
+            to right,
+            #484BF2,
+            #686af6,
+            #494eec,
+            #3e40e7
+    );
+    box-shadow: 0 0 40px rgba(45, 66, 94, 0.4);
+}
+.about-img {
+
+  /* max-width: 850px;
+    max-height: 550px;
+    position: absolute;
+    left: 840px;
+    top: 10px; */
+}
+.signIn__btn a {
+    text-decoration: underline;
+
+}
+/*
+ Priorities
+ */
+.priorities {
+    position: relative;
+    padding: 50px 0;
+}
+
+
+.prt__icon {
+    margin-right: -27px;
+
+}
+
+.priorities__img-inner {
+    margin-left: -120px;
+    margin-top: -100px;
+}
+.prt__title {
+    position: relative;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 110%;
+    /* identical to box height, or 55px */
+    color: #23213D;!important;
+    z-index: 1000;
+
+
+
+}
+.prt__text {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #23213D;!important;
+}
+/*
+Problems
+ */
+.problems {
+    padding: 0 0 100px 0;
+}
+.pbm__title {
+    padding-bottom: 55px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 110%;
+    letter-spacing: -0.02em
+}
+.pbm__item-text {
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 110%;
+    /* or 31px */
+}
+.pbm__item {
+    max-width: 435px;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+    min-height: 435px;
+    background: #ffffff;
+    border-radius: 40px;
+
+    margin-left: 25px;
+
+    filter: drop-shadow(0px 0px 20px rgba(31, 57, 105, 0.3));
+}
+.pbm__item-img {
+    padding: 50px  110px 30px 110px;
+}
+/*
+ Price
+ */
+.price {
+
+}
+
+
